@@ -1,8 +1,9 @@
 package org.javaboy.vhr.model;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class OpLog {
+public class OpLog implements Serializable {
     private Integer id;
 
     private Date adddate;

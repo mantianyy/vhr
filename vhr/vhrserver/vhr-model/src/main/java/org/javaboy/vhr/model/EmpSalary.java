@@ -1,6 +1,8 @@
 package org.javaboy.vhr.model;
 
-public class EmpSalary {
+import java.io.Serializable;
+
+public class EmpSalary implements Serializable {
     private Integer id;
 
     private Integer eid;

@@ -1,8 +1,9 @@
 package org.javaboy.vhr.model;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class ChatMsg {
+public class ChatMsg implements Serializable {
     private String from;
     private String to;
     private String content;

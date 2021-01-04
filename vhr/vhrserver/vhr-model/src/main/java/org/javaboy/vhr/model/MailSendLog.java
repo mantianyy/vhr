@@ -1,8 +1,9 @@
 package org.javaboy.vhr.model;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class MailSendLog {
+public class MailSendLog implements Serializable {
     private String msgId;
     private Integer empId;
     //0 消息投递中   1 投递成功   2投递失败

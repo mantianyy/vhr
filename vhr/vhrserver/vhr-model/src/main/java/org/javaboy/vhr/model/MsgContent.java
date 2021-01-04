@@ -1,8 +1,9 @@
 package org.javaboy.vhr.model;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class MsgContent {
+public class MsgContent implements Serializable {
     private Integer id;
 
     private String title;

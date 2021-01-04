@@ -1,6 +1,8 @@
 package org.javaboy.vhr.model;
 
-public class SysMsg {
+import java.io.Serializable;
+
+public class SysMsg implements Serializable {
     private Integer id;
 
     private Integer mid;

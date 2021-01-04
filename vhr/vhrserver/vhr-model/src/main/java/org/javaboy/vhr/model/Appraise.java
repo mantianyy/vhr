@@ -1,8 +1,9 @@
 package org.javaboy.vhr.model;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Appraise {
+public class Appraise implements Serializable {
     private Integer id;
 
     private Integer eid;
