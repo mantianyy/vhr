@@ -1,7 +1,9 @@
 package org.javaboy.vhr.mapper;
 
 import org.javaboy.vhr.model.MsgContent;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface MsgContentMapper {
     int deleteByPrimaryKey(Integer id);
 

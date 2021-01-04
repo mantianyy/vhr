@@ -1,7 +1,9 @@
 package org.javaboy.vhr.mapper;
 
 import org.javaboy.vhr.model.Employeetrain;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface EmployeetrainMapper {
     int deleteByPrimaryKey(Integer id);
 

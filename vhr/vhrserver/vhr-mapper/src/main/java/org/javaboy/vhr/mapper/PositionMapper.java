@@ -2,9 +2,11 @@ package org.javaboy.vhr.mapper;
 
 import org.apache.ibatis.annotations.Param;
 import org.javaboy.vhr.model.Position;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+@Repository
 public interface PositionMapper {
     int deleteByPrimaryKey(Integer id);
 

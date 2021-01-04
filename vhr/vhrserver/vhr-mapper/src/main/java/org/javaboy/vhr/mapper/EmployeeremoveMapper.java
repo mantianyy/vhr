@@ -1,7 +1,9 @@
 package org.javaboy.vhr.mapper;
 
 import org.javaboy.vhr.model.Employeeremove;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface EmployeeremoveMapper {
     int deleteByPrimaryKey(Integer id);
 

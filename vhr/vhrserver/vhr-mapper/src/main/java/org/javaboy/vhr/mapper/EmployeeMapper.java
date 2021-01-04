@@ -2,10 +2,12 @@ package org.javaboy.vhr.mapper;
 
 import org.apache.ibatis.annotations.Param;
 import org.javaboy.vhr.model.Employee;
+import org.springframework.stereotype.Repository;
 
 import java.util.Date;
 import java.util.List;
 
+@Repository
 public interface EmployeeMapper {
     int deleteByPrimaryKey(Integer id);
 

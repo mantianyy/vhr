@@ -1,7 +1,9 @@
 package org.javaboy.vhr.mapper;
 
 import org.javaboy.vhr.model.AdjustSalary;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface AdjustSalaryMapper {
     int deleteByPrimaryKey(Integer id);
 

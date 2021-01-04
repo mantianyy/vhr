@@ -1,7 +1,9 @@
 package org.javaboy.vhr.mapper;
 
 import org.javaboy.vhr.model.SysMsg;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface SysMsgMapper {
     int deleteByPrimaryKey(Integer id);
 

@@ -1,7 +1,9 @@
 package org.javaboy.vhr.mapper;
 
 import org.javaboy.vhr.model.Appraise;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface AppraiseMapper {
     int deleteByPrimaryKey(Integer id);
 

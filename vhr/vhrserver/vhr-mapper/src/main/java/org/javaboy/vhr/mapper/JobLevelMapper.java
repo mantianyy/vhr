@@ -2,9 +2,11 @@ package org.javaboy.vhr.mapper;
 
 import org.apache.ibatis.annotations.Param;
 import org.javaboy.vhr.model.JobLevel;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+@Repository
 public interface JobLevelMapper {
     int deleteByPrimaryKey(Integer id);
 

@@ -1,9 +1,11 @@
 package org.javaboy.vhr.mapper;
 
 import org.javaboy.vhr.model.Nation;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+@Repository
 public interface NationMapper {
     int deleteByPrimaryKey(Integer id);
 

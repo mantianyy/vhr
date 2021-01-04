@@ -2,7 +2,9 @@ package org.javaboy.vhr.mapper;
 
 import org.apache.ibatis.annotations.Param;
 import org.javaboy.vhr.model.HrRole;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface HrRoleMapper {
     int deleteByPrimaryKey(Integer id);
 

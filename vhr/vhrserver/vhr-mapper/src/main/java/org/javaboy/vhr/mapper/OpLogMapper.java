@@ -1,7 +1,9 @@
 package org.javaboy.vhr.mapper;
 
 import org.javaboy.vhr.model.OpLog;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface OpLogMapper {
     int deleteByPrimaryKey(Integer id);
 
